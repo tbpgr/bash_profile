@@ -31,7 +31,9 @@ if you use vagrant, you must write Vagrantfile:
 
 ```ruby
 config.vm.provision :chef_solo do |chef|
-  chef.add_recipe "bash_profile"
+  chef.run_list = [
+    "bash_profile"
+  ]
 end
 ```
 
