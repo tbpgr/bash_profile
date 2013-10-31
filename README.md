@@ -1,6 +1,6 @@
 bash_profile Cookbook
 =====================
-* create .bash_profile at /home/vagrant
+* create .bash_profile at /home/your_user
 * if you want to change .bash_profile, you can change [./files/default/.bash_profile]
 * you have to set data bags - users{id, name, group, password}.
 
